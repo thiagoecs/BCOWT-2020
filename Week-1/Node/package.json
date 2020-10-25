@@ -1,0 +1,24 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon script.js"
+  },
+  "author": "Thiago",
+  "license": "ISC",
+  "description": "json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoecs/Week-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thiagoecs/Week-1/issues"
+  },
+  "homepage": "https://github.com/thiagoecs/Week-1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {}
+}
