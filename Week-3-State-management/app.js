@@ -42,7 +42,8 @@ app.get('/secret', (req, res) => {
 
 app.post('/login', (req, res) => {
   console.log('username', req.body.username);
-  if(req.body.username === username) {
+  console.log('password', req.body.password);
+  if(req.body.username === username && req.body.password === password) {
     req.session.logged = true;
     req.session.test = { more: 'stuff', yay: 42};
     res.redirect('secret');
